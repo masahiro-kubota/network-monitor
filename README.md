@@ -1,5 +1,5 @@
 ```
 sudo ./initial_setup.sh
 systemctl status network_check.service
-tail -f ~/network-monitor/logs/network_check.log
+tail -f /var/log/network_check.log
 ```
