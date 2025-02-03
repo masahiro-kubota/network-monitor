@@ -1,0 +1,13 @@
+[Unit]
+Description=Network Connection Monitor
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/network_check
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
+
