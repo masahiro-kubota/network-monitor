@@ -13,5 +13,5 @@ tail -f /var/log/network_check.log
 
 ```
 # remove systemd files
-sudo rm /usr/local/bin/network_check /etc/systemd/system/network_check.service
+sudo rm /usr/local/bin/network_check /etc/systemd/system/network_check.service /var/log/network_check.log
 ```
