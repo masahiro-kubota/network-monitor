@@ -3,7 +3,7 @@ Description=Network Connection Monitor
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/network_check
+ExecStart=/usr/local/bin/network_monitor
 Restart=always
 User=root
 Group=root
