@@ -15,6 +15,7 @@ sudo dpkg -i grafana-enterprise_11.5.1_amd64.deb
 
 ```
 
+influxdbのトークン発行して、grafanaとbin/network_monitor.shに登録
 
 ```
 # initial setting
