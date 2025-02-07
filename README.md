@@ -16,6 +16,8 @@ sudo dpkg -i grafana-enterprise_11.5.1_amd64.deb
 ```
 
 influxdbのトークン発行して、grafanaとbin/network_monitor.shに登録
+![image](https://github.com/user-attachments/assets/a827fcef-95f0-4b6d-becc-e5833c83bf3a)
+
 
 ```
 # initial setting
