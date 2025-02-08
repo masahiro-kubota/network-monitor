@@ -3,7 +3,7 @@
 INFLUXDB_URL="http://localhost:8086"
 INFLUXDB_ORG="my-org"  # InfluxDBの組織名（Web UI で確認）
 INFLUXDB_BUCKET="network_speed"
-SPEEDTEST_CMD="/usr/bin/speedtest --server 48463"
+SPEEDTEST_CMD="/usr/bin/speedtest --server $(/usr/bin/speedtest --list | grep 'IPA CyberLab 400G' | awk '{gsub(/\)/, "", $1); print $1}')"
 
 # speedtest-cli がインストールされているか確認
 if ! command -v speedtest &> /dev/null; then
