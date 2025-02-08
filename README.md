@@ -22,6 +22,7 @@ influxdbのトークン発行して、grafanaとbin/network_monitor.shに登録
 
 ```
 # initial setting
+source .env
 sudo ./initial_setup.sh
 
 # when modify service

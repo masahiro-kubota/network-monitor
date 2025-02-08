@@ -3,6 +3,7 @@ Description=Network Connection Monitor
 After=network.target
 
 [Service]
+EnvironmentFile=/usr/local/bin/.network_monitor.env
 ExecStart=/usr/local/bin/network_monitor
 Restart=always
 User=root

@@ -1,12 +1,5 @@
 #!/bin/bash
 
-if [ -f .env ]; then
-    source .env
-else
-    echo ".env ファイルが見つかりません。作成してください。"
-    exit 1
-fi
-
 INFLUXDB_URL="http://localhost:8086"
 INFLUXDB_ORG="my-org"  # InfluxDBの組織名（Web UI で確認）
 INFLUXDB_BUCKET="network_speed"
